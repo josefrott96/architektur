@@ -95,6 +95,10 @@ body h3 {
     opacity: 0;
 }
 
+.fadeInUp a {
+    text-decoration: none;
+}
+
 /* contentArchitektur */
 #contentArchitektur {
     display: grid;
@@ -221,14 +225,10 @@ header .current a {
     color: #000;
 }
 
-/* header-light */
-header.header-light a {
-    color: #fff;
-}
-
-header.header-light a:hover {
-    color: #000;
-}
+/* index-light */
+.index-light * { color: #fff !important; }
+.index-light a:hover { color: #000 !important; }
+#contentIndex .fadeInUp * { color: #fff !important; }
 
 /* footer */
 footer {
@@ -293,15 +293,6 @@ footer .current a {
     color: #000;
 }
 
-/* footer-light */
-footer.footer-light a {
-    color: #fff;
-}
-
-footer.footer-light a:hover {
-    color: #000;
-}
-
 /* nested2 */
 .nested2 img {
     padding: 0;
@@ -348,7 +339,7 @@ footer.footer-light a:hover {
 }
 
 .download-btn:hover {
-    opacity: 0.8;
+    opacity: 0.2;
 }
 
 /* box */
